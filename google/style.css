@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(167, 166, 166, 0.733);
+}
+#heading{
+    display: flex;
+}
+#header-image{
+    height: 80px;
+    width: 80px;
+    margin-left: 600px;
+    margin-top: 50px;
+    
+}
+header{
+    text-align: centr;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(15, 1, 29);
+    margin-left: 15px;
+    margin-top: 60px;
+}
+#google-logo{
+    height: 25px;
+    width: 25px;
+    margin: 18px;
+    background-color: white;
+}
+#search-box{
+    position: relative;
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width:800px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 350px;
+    font-size: 20px;
+}
+#searchbox-text{
+    margin-top: 25px;
+    color: rgba(158, 147, 147, 0.74);
+}
+#bookmark{
+    display: flex;
+    margin-left: 200px;    
+}
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 10px;
+    border: 25px solid rgba(167, 166, 166, 0.733);
+    border-radius: 10px;
+    text-align: center;
+}
+.box-logo{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.box:hover{
+    border-color: gray;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.news-box{
+    height: 325px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.news-box:hover{
+    cursor: pointer;
+}
+.news-box:hover .news-headline{
+    color: rgb(25, 83, 241);
+}
+.news-snap{
+    height:140px;
+    width: 300px;
+}
+.website{
+    color: rgb(20, 20, 20);
+    margin-left: 10px;
+}
+.news-headline{
+    margin-left: 10px;
+}
+.news-content{
+    margin-left: 10px;
+}
